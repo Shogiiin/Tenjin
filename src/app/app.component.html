@@ -1,0 +1,51 @@
+<nav>
+    <ul>
+        <li class="poppins-light"><a routerLink="/">
+            <!-- <mat-icon class="material-icons-thin">expand_more</mat-icon> -->
+            Home
+        </a></li>
+        <li id="servicesNavButton" class="navExpandable poppins-light">
+            <a id="servicesA" routerLink="/services">
+                <mat-icon class="material-icons-thin">expand_more</mat-icon>
+                Services
+            </a>
+            <ul class="navDropdown" id="servicesDropdown">
+                <li style="font-size: 1.1rem;">
+                    <a routerLink="/services/library">Library</a>
+                    <mat-icon class="material-icons-outlined">library_books</mat-icon>
+                </li>
+                <hr>
+                <li style="font-size: 1.1rem;">
+                    <a routerLink="/services/games">Games</a>
+                    <mat-icon class="material-icons-outlined">games</mat-icon>
+                </li>
+            </ul>
+        </li>
+        <li id="projectsNavButton" class="navExpandable poppins-light">
+            <a id="projectsA" routerLink="/projects">
+                <mat-icon class="material-icons-thin">expand_more</mat-icon>
+                Projects
+            </a>
+            <ul class="navDropdown" id="projectsDropdown">
+                <li style="font-size: 1.1rem;">
+                    <a href="https://github.com/Shogiiin/Apps-WebCrawler-">Webcrawler</a>
+                    <mat-icon class="material-icons-outlined">bug_report</mat-icon>
+                </li>
+            </ul>
+        </li>
+        <li class="poppins-light"><a routerLink="/news">
+            News
+        </a></li>
+        <!-- <li class="poppins-light"><a routerLink="/error">
+            <mat-icon class="material-icons-thin">error_outline</mat-icon>
+            404
+        </a></li> -->
+    </ul>
+    <button id="loginButton" class="poppins-semibold" routerLink="/login">Login</button>
+</nav>
+<main>
+    <router-outlet />
+</main>
+<!-- <footer>
+    
+</footer> -->

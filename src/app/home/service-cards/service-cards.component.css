@@ -1,0 +1,52 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+h2 {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 3px;
+}
+.cardsWrapper {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.card {
+    height: 25rem;
+    aspect-ratio: 3.8/4;
+    border-radius: 5px;
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 5px;
+    padding: 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+a {
+    text-decoration: none;
+    color: #bc464c;
+}
+p {
+    font-size: 1.2rem;
+}
+.preview {
+    /* outerbox */
+    height: 6rem;
+    width: 100%;
+    /* aspect-ratio: 4/2; */
+    margin-top: auto;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 7.5px;
+
+    /* img itself */
+    border-radius: 7.5px;
+    object-fit: cover;
+    cursor: pointer;
+    mix-blend-mode: exclusion;
+    
+    /* alt text */
+    align-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+}

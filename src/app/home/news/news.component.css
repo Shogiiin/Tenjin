@@ -1,0 +1,38 @@
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+.latest {
+    width: 70rem;
+    padding: 4rem 9rem 4rem 4rem;
+
+    box-shadow: rgba(255, 255, 255, 0.3) 0px 0px 5px;
+    border-radius: 15px;
+    
+    display: grid;
+    grid-template-rows: 20rem;
+    grid-template-columns: 70% 30%;
+}
+span {
+    font-size: 2.2rem;
+    letter-spacing: 3px;
+}
+h2 {
+    font-size: 1.6rem;
+    padding: 11% 30% 0 0;
+}
+p {
+    font-size: 1rem;
+    padding: 2% 30% 0 0;
+}
+img {
+    height: 100%;
+    border-radius: 7.5px;
+    mix-blend-mode: exclusion;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 0px 7.5px;
+    cursor: pointer;
+}
+a {
+    text-decoration: none;
+    color: #bc464c;
+}

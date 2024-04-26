@@ -1,0 +1,14 @@
+.welcomeText {
+    font-size: 3.5rem;
+    text-align: center;
+}
+.seeThroughText {
+    background-image: linear-gradient(110deg, #bc464c, #af4261);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+img {
+    height: 25rem;
+    mix-blend-mode:exclusion;
+    mix-blend-mode:lighten;
+}
